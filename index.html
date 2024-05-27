@@ -79,7 +79,6 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-
               <p class="recipes__video-caption">
                 <span>Aeropress recipe</span><span>~5 min</span>
               </p>
@@ -93,14 +92,48 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-
               <p class="recipes__video-caption">
                 <span>French press recipe</span><span>~15 min</span>
               </p>
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form action="" class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label"
+                >Name*
+                <input
+                  type="text"
+                  placeholder="Name Surname"
+                  class="form__input"
+              /></label>
+              <label for="number" class="form__label"
+                >Number of guests *
+                <input type="number" placeholder="1-8" class="form__input"
+              /></label>
+              <label for="datetime-local" class="form__label"
+                >Date & time *
+                <input
+                  type="datetime-local"
+                  class="form__input form__input_date"
+              /></label>
+              <label for="email" class="form__label"
+                >Your email *
+                <input
+                  type="email"
+                  placeholder="email@email.com"
+                  class="form__input"
+              /></label>
+            </fieldset>
+            <button class="form__button">Book a table</button>
+            <label for="" class="form__label form__label_type_checkbox">
+              <input type="checkbox" class="form__checkbox" />
+              I agree with the terms of use
+            </label>
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="contacts" id="contacts"></section>
       </main>
