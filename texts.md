@@ -115,9 +115,3 @@ Facebook
 Instagram
 
 © 2023 Your name
-
-<img
-          src="./images/background_header.svg"
-          alt="header image"
-          class="header__image"
-        />
