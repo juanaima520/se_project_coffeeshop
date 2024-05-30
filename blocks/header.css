@@ -59,8 +59,8 @@
 
 .header__footer {
   display: flex;
+  justify-content: space-between;
   align-items: end;
-  /*justify-content: space-between;* reviwer suggested the change, i do not know the difference*/
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;

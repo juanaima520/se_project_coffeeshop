@@ -29,18 +29,14 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  border: #838383;
+  border: 1px solid #838383;
   margin-top: 8px;
   height: 60px;
   display: block;
   width: 100%;
-  padding: auto 20px;  /*do not understand this part but this is what reviwer says, will try to get tutor help*/
+  padding: 0 20px; /*why*/
   box-sizing: border-box;
   border-radius: 4px;
-}
-
-/*.form__input_date {
-  color: black;*/
 }
 
 .form__button {
@@ -58,7 +54,7 @@
   transition: opacity 1s ease;
   background-color: #2f80ed;
   color: #fff;
-  border:none;
+  border: none;
 }
 
 .form__button:hover {
