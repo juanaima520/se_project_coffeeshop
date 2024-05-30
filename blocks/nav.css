@@ -16,7 +16,7 @@
   padding: 0;
   gap: 20px;
   list-style-type: none;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .nav__link {

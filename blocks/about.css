@@ -1,5 +1,5 @@
 @keyframes pulsate {
-  0 {
+  0% {
     opacity: 0;
   }
   50% {
@@ -29,7 +29,7 @@
 }
 
 .about__title {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -41,7 +41,7 @@
 }
 
 .about__paragraph {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
